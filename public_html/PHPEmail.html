@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+<head>
+<title> Emailing helper</title>
+</head>
+<body>
+
+<form action = 'PHPEmail.php' method = 'get'>
+	<div>
+		<h2>Sender</h3>
+		Name<br/><input type = 'text' name = 'sender_name'><br/>
+		Your Email Address<br/><input type = 'text' id = 'Sender' name = 'sender_email'>
+	</div>
+	<div>
+		<h2>Recipients</h3>
+		To<br/><input type = 'text' id = "to" name = 'to'><br/>
+		CC<br/><input type = 'text' name = 'cc'><br/>
+		BCC<br/><input type = 'text' name = 'bcc'><br/>
+	</div>
+	<div>
+		<h2>The actual Email</h2>
+		Subject<br/><input type='text' name='subject'><br/>
+		Message<br/><textarea rows='5' cols ='45' name='message'></textarea>
+	</div>
+		<button type='submit' name='submit'>Send</button>
+		<button type='reset' name='reset'>Restart</button>
+</form>
+</body>
+</html>	
