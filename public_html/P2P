@@ -1,0 +1,5 @@
+Hi From P2P square
+<?php
+$var = $_GET['fred'];
+echo $var;
+?
